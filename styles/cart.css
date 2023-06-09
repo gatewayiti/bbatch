@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+width: 1024px;
+margin: auto;
+}
+.cartHead{
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+.image{
+    width: 250px;
+    border-radius: 10px;
+}
+.icon{
+    width: 50px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: 30px 30px 30px  gray;
+}
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+}
+.comonbtn{
+    outline: none;
+    border: none; 
+    padding: 6px;
+}
+.green-btn{
+
+    background-color: green;
+   
+}
+.yellow-btn{
+    
+    background-color: yellow;
+ 
+}
+.red-btn{
+ 
+    background-color: red;
+  
+}
